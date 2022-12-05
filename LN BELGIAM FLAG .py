@@ -1,0 +1,11 @@
+import tkinter as tk
+window=tk.Tk()
+f1=tk.Frame(master=window,height=50,width=70,bg="black")
+f1.pack(fill=tk.X,side=tk.LEFT,expand=True)
+f2=tk.Frame(master=window,height=50,width=70,bg="yellow")
+f2.pack(fill=tk.X,side=tk.LEFT,expand=True)
+f3=tk.Frame(master=window,height=50,width=70,bg="red")
+f3.pack(fill=tk.X,side=tk.LEFT,expand=True)
+b=tk.Button(text="Belgium",bg="pink")
+b.place(x=75,y=0)
+window.mainloop()
